@@ -46,6 +46,12 @@
     margin-right: -22px;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar__container__menu {
+        display: none;
+    }
+}
+
 .navbar__container__menu__item {
     height: 80px;
 }
