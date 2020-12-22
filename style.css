@@ -276,3 +276,17 @@
     display: grid;
     place-items: center;
 }
+
+.contact__container {
+    height: 860px;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    background-color: #141414;
+}
+
+.contact__container__form {
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+}
