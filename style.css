@@ -42,6 +42,14 @@
     display: none;
 }
 
+.fas {
+    cursor: pointer;
+}
+
+#toggle {
+     display: none;
+}
+
 @media screen and (max-width: 768px) {
     .navbar__container__burger {
         display: block;
@@ -82,7 +90,6 @@
     height: 100%;
     cursor: pointer;
 }
-
 
 .sibebar__container {
     position: fixed;
@@ -139,4 +146,12 @@
 .sidebar__container__menu__links:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
+}
+
+.sibebar__container {
+    visibility: collapse;
+}
+
+#toggle:checked ~ * .sidebar {
+    visibility: visible;
 }
