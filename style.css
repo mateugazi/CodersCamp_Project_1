@@ -262,4 +262,17 @@
     }
 }
 
+.skills__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 860px;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    background-color: #0c0c0c;
+}
 
+.skills__container__wrapper {
+    display: grid;
+    place-items: center;
+}
