@@ -38,6 +38,23 @@
     text-decoration: none;
 }
 
+.navbar__container__burger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__container__burger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+
 .navbar__container__menu {
     display: flex;
     align-items: center;
