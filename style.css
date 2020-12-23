@@ -33,7 +33,6 @@ a:link{
 .navbar__container__logo {
     color: #fff;
     justify-self: flex-start;
-    cursor: pointer;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -411,4 +410,12 @@ textarea:hover {
   
 #submit:hover {
     color: #e2dedb;
+}
+
+.footer__container {
+    display: grid;
+    place-items: center;
+    height: 5vh;
+    background: #000000;
+    color: #fff;
 }
