@@ -221,7 +221,7 @@ a:link{
 .about__container {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 150vh;
+    height: 125vh;
     width: 100%;
     align-items: center;
     color: #fff;
@@ -242,7 +242,7 @@ a:link{
 }
 
 .about__container__wrapper__picture {
-    width:80%;
+    width:30vw;
 }
 
 .about__container__wrapper__header {
@@ -251,7 +251,7 @@ a:link{
 }
 
 .about__container__wrapper__text {
-    font-size: 2rem;
+    font-size:1.5rem;
 }
 
 @media screen and (max-width: 480px) {
