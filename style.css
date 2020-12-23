@@ -331,3 +331,79 @@ a:link{
     grid-template-rows: auto;
     place-items: center;
 }
+
+.contact__container__form__name {
+    margin-top: 25vh;
+}
+
+
+.contact__container__form__name, .contact__container__form__email, .contact__container__form__submit {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 50vw;
+    height: 10vh;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #fff;
+    
+    border: solid 1px #fff;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+  
+input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+  
+.contact__container__form__textarea {
+    width: 50vw;
+    height: 25vh;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #fff;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+  
+textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+  
+  #submit {
+    width: 50vw;
+    height: 10vh;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #e2dedb;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #fff;
+    border-top: none;
+}
+  
+  #submit:hover {
+    color: #e2dedb;
+}
