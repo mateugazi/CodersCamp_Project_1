@@ -250,18 +250,17 @@ a:link{
     padding-bottom: 1em;
 }
 
-@media screen and (max-width: 480px) {
-    .about__container__wrapper__header {
-        font-size: 24px;
-    }
-}
-
 .about__container__wrapper__text {
     font-size: 24px;
 }
 
 @media screen and (max-width: 480px) {
+    .about__container__wrapper__header {
+        margin-top: -30vh;
+    }
+
     .about__container__wrapper__text {
+        margin:-10vh 15vw 0 15vw;
         font-size: 18px;
     }
 }
@@ -316,6 +315,12 @@ a:link{
     text-decoration: none;
     box-shadow: none;
     color: #fff
+}
+
+@media screen and (max-width: 480px) {
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+    }
 }
 
 .contact__container {
@@ -387,7 +392,7 @@ textarea:hover {
     color: #e2dedb;
 }
   
-  #submit {
+#submit {
     width: 50vw;
     height: 10vh;
     padding: 0;
@@ -404,6 +409,6 @@ textarea:hover {
     border-top: none;
 }
   
-  #submit:hover {
+#submit:hover {
     color: #e2dedb;
 }
