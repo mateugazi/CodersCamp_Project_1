@@ -53,31 +53,12 @@ a:link{
      display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .navbar__container__burger {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #fff;
-    }
-}
-
 .navbar__container__menu {
     display: flex;
     align-items: center;
     list-style: none;
     text-align: center;
     margin-right: -22px;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar__container__menu {
-        display: none;
-    }
 }
 
 .navbar__container__menu__item {
@@ -125,12 +106,6 @@ a:link{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6,80px);
     text-align: center;
-}
-
-@media screen and (max-width: 480px) {
-    .sidebar__container__menu {
-        grid-template-rows: repeat(6,60px);
-    }
 }
 
 .sidebar__container__menu__links {
@@ -185,18 +160,6 @@ a:link{
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .welcome__container__content__header {
-        font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .welcome__container__content__header {
-        font-size: 32px;
-    }
-}
-
 .welcome__container__content__text {
     margin-top: 24px;
     color: #fff;
@@ -204,18 +167,6 @@ a:link{
     text-align: center;
     max-width: 600px;
 } 
-
-@media screen and (max-width: 768px) {
-    .welcome__container__content__text {
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .welcome__container__content__text {
-        font-size: 18px;
-    }
-}
 
 .about__container {
     display: grid;
@@ -226,13 +177,6 @@ a:link{
     color: #fff;
     background-color: #141414;
 
-}
-
-@media screen and (max-width: 768px) {
-    .about__container {
-        padding: 100px 0;
-        grid-template-columns: auto;
-    }
 }
 
 .about__container__wrapper {
@@ -253,14 +197,20 @@ a:link{
     font-size:1.5rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
+
     .about__container__wrapper__header {
-        margin-top: -30vh;
+        margin-top: -5vh;
+        font-size: 3rem;
     }
 
     .about__container__wrapper__text {
-        margin:-10vh 15vw 0 15vw;
-        font-size: 18px;
+        margin: 0 15vw 0 15vw;
+        font-size: 1rem;
+    }
+
+    .about__container__wrapper__picture {
+        width: 40vw;
     }
 }
 
@@ -277,13 +227,6 @@ a:link{
 .skills__container__wrapper {
     display: grid;
     place-items: center;
-}
-
-@media screen and (max-width:480px) {
-    .skills__container {
-        display: grid;
-        grid-template-columns: auto;
-    }
 }
 
 .skills__container__wrapper__skills {
@@ -314,12 +257,6 @@ a:link{
     text-decoration: none;
     box-shadow: none;
     color: #fff
-}
-
-@media screen and (max-width: 480px) {
-    .skills__container__wrapper__skills {
-        margin-left: 15vw;
-    }
 }
 
 .contact__container {
@@ -418,4 +355,257 @@ textarea:hover {
     height: 5vh;
     background: #000000;
     color: #fff;
+}
+
+/* Media querries */
+@media screen and (max-width: 1500px) {
+    
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .skills__container__wrapper__skills__item {
+        font-size: 3.5rem;
+        margin-top: 1rem;
+    }
+
+    .skills__container__wrapper__skills__item__value {
+        font-size: 2.5rem;
+    }
+
+    .skills__container__wrapper__projects {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        width: 60vw;
+        margin-top: -10vh;
+    }
+
+    .skills__container__wrapper__projects__item {
+        font-size: 2.75rem;
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .navbar__container__burger {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #fff;
+    }
+    .navbar__container__menu {
+        display: none;
+    }
+
+    .welcome__container__content__header {
+        font-size: 40px;
+    }
+
+    .welcome__container__content__text {
+        font-size: 24px;
+    }
+
+    .about__container {
+        padding: 100px 0;
+        grid-template-columns: auto;
+    }
+
+    .about__container__wrapper__header {
+        margin-top: -5vh;
+        font-size: 32px;
+    }
+
+    .about__container__wrapper__text {
+        margin: 0 15vw 0 15vw;
+        font-size: 18px;
+    }
+
+    .about__container__wrapper__picture {
+        width: 60vw;
+    }
+
+    .skills__container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .skills__container__wrapper__skills__item {
+        font-size: 3.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .skills__container__wrapper__skills__item__value {
+        font-size: 2.75rem;
+    }
+
+    .skills__container__wrapper__projects {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        margin-top: -10vh;
+    }
+
+    .skills__container__wrapper__projects__item {
+        font-size: 2.75rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1300px) and (max-height: 1300px) {
+    .skills__container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .skills__container__wrapper__skills__item {
+        font-size: 3.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .skills__container__wrapper__skills__item__value {
+        font-size: 2.75rem;
+    }
+
+    .skills__container__wrapper__projects {
+        margin-left: 15vw;
+        font-size: 3.5rem;
+        margin-top: -10vh;
+    }
+
+    .skills__container__wrapper__projects__item {
+        font-size: 2.75rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 868px) and (max-height: 500px) {
+    .about__container__wrapper__header {
+        margin-top: 5vh;
+        font-size: 24px;
+    }
+
+    .about__container__wrapper__text {
+        margin: 0 10px 0 ;
+        font-size: 12px;
+    }
+
+    .about__container__wrapper__picture {
+        width: 20vw;
+    }
+    
+    .skills__container {
+        display: grid;
+        grid-template-columns: row;
+    }
+    
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+        font-size: 1.5rem;
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .skills__container__wrapper__skills__item {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .skills__container__wrapper__skills__item__value {
+        font-size: 0.75rem;
+    }
+
+    .skills__container__wrapper__projects {
+        margin-left: 15vw;
+        font-size: 1.5rem;
+        margin-top: -10vh;
+    }
+
+    .skills__container__wrapper__projects__item {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .sidebar__container__menu {
+        grid-template-rows: repeat(6,60px);
+    }
+
+    .welcome__container__content__header {
+        font-size: 32px;
+    }
+
+    .welcome__container__content__text {
+        font-size: 18px;
+    }
+
+    .about__container__wrapper__header {
+        margin-top: 5vh;
+        font-size: 32px;
+    }
+
+    .about__container__wrapper__text {
+        margin: 0 15vw 0 15vw;
+        font-size: 18px;
+    }
+
+    .about__container__wrapper__picture {
+        width: 60vw;
+    }
+
+    .skills__container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .skills__container__wrapper__skills {
+        margin-left: 15vw;
+        font-size: 2.5rem;
+        margin-top: 5vh;
+        width: 60vw;
+    }
+
+    .skills__container__wrapper__skills__item {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .skills__container__wrapper__skills__item__value {
+        font-size: 1.5rem;
+    }
+
+    .skills__container__wrapper__projects {
+        margin-left: 15vw;
+        font-size: 2.5rem;
+        width: 60vw;
+        margin-top: -10vh;
+    }
+
+    .skills__container__wrapper__projects__item {
+        font-size: 1.75rem;
+        margin-top: 1rem;
+    }
 }
