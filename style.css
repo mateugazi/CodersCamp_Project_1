@@ -246,12 +246,12 @@ a:link{
 }
 
 .about__container__wrapper__header {
-    font-size: 48px;
+    font-size: 6rem;
     padding-bottom: 1em;
 }
 
 .about__container__wrapper__text {
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -289,25 +289,25 @@ a:link{
 
 .skills__container__wrapper__skills {
     list-style: none;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 .skills__container__wrapper__skills__item {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .skills__container__wrapper__skills__item__value {
     margin-left: 1.5rem;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .skills__container__wrapper__projects {
     list-style: none;
-    font-size: 3rem;
+    font-size: 6rem;
 }
 
 .skills__container__wrapper__projects__item {
-    font-size: 1.5rem;
+    font-size: 4rem;
     margin-top: 3rem;
 }
 
