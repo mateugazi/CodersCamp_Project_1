@@ -162,7 +162,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     z-index: 1;
 }
@@ -217,7 +217,7 @@
 .about__container {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 860px;
+    height: 150vh;
     width: 100%;
     align-items: center;
     color: #fff;
@@ -238,7 +238,7 @@
 }
 
 .about__container__wrapper__picture {
-    width:85%;
+    width:80%;
 }
 
 .about__container__wrapper__header {
@@ -265,7 +265,7 @@
 .skills__container {
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 860px;
+    height: 150vh;
     width: 100%;
     align-items: center;
     color: #fff;
@@ -278,7 +278,7 @@
 }
 
 .contact__container {
-    height: 860px;
+    height: 100vh;
     width: 100%;
     align-items: center;
     color: #fff;
