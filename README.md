@@ -23,20 +23,20 @@ Font Awesome
 This project includes following conceptions:
 * Responsive media querries:
 
-![xd](./readmeimg/img0)
+![xd](./img0)
 
-![xd](./readmeimg/img1)
+![xd](./img1)
 
 * Responsive grids:
 
-![xd1](./readmeimg/img2)
+![xd1](./img2)
 
-![xd1](./readmeimg/img3)
+![xd1](./img3)
 
 * Responsive contact form:
 
-![xd2](./readmeimg/img4)
+![xd2](./img4)
 
-![xd2](./readmeimg/img5)
+![xd2](./img5)
 
 * Key frames animations when hovering the menu links
