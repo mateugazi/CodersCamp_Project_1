@@ -1,5 +1,6 @@
 # Portfolio website
 Simple portfolio created with the plain HTML and CSS in the form of the static web page.
+
 Demo: https://mateugazi.github.io/CodersCamp_Project_1/
 
 ---
