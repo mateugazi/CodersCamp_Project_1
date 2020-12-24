@@ -12,6 +12,7 @@ a:link{
     text-decoration: none!important;
 }
 
+/* navbar section */
 .navbar {
     background: #000000;
     height: 80px;
@@ -83,6 +84,7 @@ a:link{
     animation: hoverNav 2s;
 }
 
+/* sidebar menu */
 .sibebar__container {
     position: fixed;
     position: fixed;
@@ -142,6 +144,7 @@ a:link{
     visibility: visible;
 }
 
+/* welcome section */
 .welcome__container {
     background: #0c0c0c;
     display: flex;
@@ -176,6 +179,7 @@ a:link{
     max-width: 600px;
 } 
 
+/* about section */
 .about__container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -206,23 +210,7 @@ a:link{
     font-size:1.5rem;
 }
 
-@media screen and (max-width: 1500px) {
-
-    .about__container__wrapper__header {
-        margin-top: -5vh;
-        font-size: 3rem;
-    }
-
-    .about__container__wrapper__text {
-        margin: 0 15vw 0 15vw;
-        font-size: 1rem;
-    }
-
-    .about__container__wrapper__picture {
-        width: 40vw;
-    }
-}
-
+/* skills section */
 .skills__container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -370,6 +358,20 @@ a:link{
 
 /* Media querries */
 @media screen and (max-width: 1500px) {
+
+    .about__container__wrapper__header {
+        margin-top: -5vh;
+        font-size: 3rem;
+    }
+
+    .about__container__wrapper__text {
+        margin: 0 15vw 0 15vw;
+        font-size: 1rem;
+    }
+
+    .about__container__wrapper__picture {
+        width: 40vw;
+    }
     
     .skills__container__wrapper__skills {
         margin-left: 15vw;
@@ -402,7 +404,7 @@ a:link{
 }
 
 @media screen and (max-width: 780px) {
-    .navbar__container__burger {
+   /* .navbar__container__burger {
         display: block;
         position: absolute;
         top: 0;
@@ -411,7 +413,7 @@ a:link{
         font-size: 1.8rem;
         cursor: pointer;
         color: #fff;
-    }
+    } */
     .navbar__container__menu {
         display: none;
     }
