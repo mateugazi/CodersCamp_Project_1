@@ -21,7 +21,7 @@ Font Awesome
 
 ---
 
-This project includes following conceptions:
+This project includes following concepts:
 * Responsive media querries:
 
 ![xd](./img0.png)
